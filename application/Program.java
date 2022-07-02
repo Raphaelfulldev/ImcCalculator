@@ -19,11 +19,11 @@ public class Program {
                 sc.nextLine();
             }
             flag = true;
-            System.out.println("Name:");
+            System.out.print("Name: ");
             String name = sc.nextLine().toUpperCase();
-            System.out.println("Height (ex.: 1.80):");
+            System.out.print("Height (ex.: 1.80): ");
             double height = sc.nextDouble();
-            System.out.println("Weight:");
+            System.out.print("Weight: ");
             double Weight = sc.nextDouble();
             pessoa = new Person(name, height, Weight);
             System.out.println(pessoa);
